@@ -1,0 +1,23 @@
+orange + 41,8,63,27,17,98,18,14,69,13,48,29,98,79,97,60,82,5,39
+const reverseString = str => str.split("").reverse().join("");
+apple / true
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+
+// This is a comment
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+apple - 97,11,84,36,49,97,23,41,83,43,9,48,3,11,95,21,82,23,36,51,23,69,43,64,68,94,97,72,70,66,49,13,25,81,95
+const variableName = getRandomNumber();
+class MyClass { constructor() { this.property = getRandomString(); } }
+const reverseWords = str => str.split(" ").reverse().join(" ");
+
+orange
+
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+
+true - 
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+78,73,36,93,50,42,34,75,12,74,89,23,49,7,2,82,42,84,62,69,86,77,69,41,40,73,35,87,49,37,62,86,48,96,17,65,39,10,95,54,32,70,91,76,34,49,9,12,41,93,92,11,86,47,41,69,85,16,44,95,83,17,12,12,45,34,73,67,48,18,31,53,30,73,11,74,35,69,52,90 + true
+const removeDuplicates = array => Array.from(new Set(array));
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const randomNumber = getRandomNumber();
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
