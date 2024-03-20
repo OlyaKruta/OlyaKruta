@@ -1,0 +1,21 @@
+kiwi
+
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+true * 1,8,1,26,89,59,57,4,45,45,69,17,37,93,91,90,91,79,11,87,45,7,20,71,93,87,52,4,10,23,67,96,36,31,62,41,68,18,18,82,87,81,58,69,65,7,64,27,68,53,6,27,44,53,76,49,61,15,55,56,64,98,5,23,90,49
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+34,52,32,85,29,0,66,24,88,46,44,38,54,47,44,40,7,0,61,37,15,44,67,60,65,33,91,57,62,53,14,24,64,11,40,79,79,62,87,93,44,18,63,95,61,31,38,58,73,66,40,66,42,64,78,24,98,39,58,83,99,61,41,63,29,52,29,16,98,27,83,50 / 57,59,80,16,78,42,19,35,55,44,65,70,75,80,8,90,36,44,34,19,48,83,18,15,74,64,29,96,46,17,40,68,90,85,77,6,98,47,7,71,73,68,26,23,22,75,61,74,78,22,25,9,60,51,18,51,92,18,46,21,82,76,25,75,65,44,67,3,41,20,64,3,40,28,12,52,54,80,54,66,95,33,76,48,27,32,3,18,3,73,34,43,82,83
+
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+false - 23,93,5,49,1,85,63,31,21,8,99,97,9,19,77,74,36,26,97,58,9,77,67,98,46,62,80,70,15,62,23,39,16,49,26,97,48,76,64,27,15,39,49,81,85,68,96,30,54,31,15,57,36,35,35,59,60,28,90,19,33,13,75,83,80,76,20
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+const multiply = (a, b) => a * b;
+class MyClass { constructor() { this.property = getRandomString(); } }
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+const formatDate = date => new Date(date).toLocaleDateString();
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+true * 15,58,27,61,30,54,19,34,80,3,70,4,60,99,17,94,29,75,35,71,9,22,34,51,26,90,72,69,35,86,64,48,55,22,25,5,70,93,27,64,44,14,29,86,68,53,7,28,46,53,13,77,99,11,50,51,27,55,3,93,75,75,75,97,49,42,40,54,14
+const squareRoot = num => Math.sqrt(num);
+grape / 48,33,89,30,95,35,57,51,99,63,18,57,74,83,24,73,59,1
+const getRandomSubset = (array, size) => array.slice(0, size);
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
