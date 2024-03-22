@@ -1,0 +1,79 @@
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+79,81,22,75,11,46,43,72,99,67,57,42,32,58,45,65,77,77,99,45,37,52,23,45,20,39,77,41,3,69,62,89,11,34,76,25,90,27,88,53,5,75,15,90,76,60,82,71,23,34,72,32,56,97,3,48,77,36,16,38,43,72,97,58,14,75,63,38,31,3,15 * 64,56,14,26,6,81,83,28,29,89
+
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+apple
+
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+46 + 46
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+66 - 10
+const variableName = getRandomNumber();
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+24,46,22,93,9,35,77,46 - apple
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+
+orange
+
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+class MyClass { constructor() { this.property = getRandomString(); } }
+
+const capitalizeString = str => str.toUpperCase();
+true - 23,55,74,12,23,71,57,50,16
+const formatDate = date => new Date(date).toLocaleDateString();
+
+const isPalindrome = str => str === str.split("").reverse().join("");
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+
+const reverseString = str => str.split("").reverse().join("");
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+35 * true
+const sum = (a, b) => a + b;
+const getRandomElement = array => array[getRandomIndex(array)];
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+
+apple - grape
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+apple
+
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const findSmallestNumber = numbers => Math.min(...numbers);
+51,71,4,35,71,85,72,6,46,63,77,31,52,43,66,87,45,10,46,42,37,22,68,20,94,19,6,83,21,39,41,27,12,20,22,20,5,34,0,56,93,92,2,47,51,17,13,83,67,94,61,79,28,14,83,34,41,92,26,24,62,45,1,72,52,90,36,22,96,71,16,70,83,8,1,80,28,85,88,1,59,76,0,91,63,50,80,48,27 + 33
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+orange * 77,57,61,38,1,55,0,13,61,45,40,15,40,56,94,64,15,18,27,68,59,22,43,35,92,12,55,68,78,26,66,91,56,28,51,72,63,18,51,41,44,63,41,6,63,43,37,4,39,54
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+false / grape
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+const reverseString = str => str.split("").reverse().join("");
+let array = getRandomArray(); array.forEach(item => console.log(item));
+orange
+
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+
+let array = getRandomArray(); array.forEach(item => console.log(item));
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+false + 65
+const multiply = (a, b) => a * b;
+
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+11 * orange
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const findLargestNumber = numbers => Math.max(...numbers);
+true / 78,32,58,17,87,0,81,27,76,61,25,99,51,88,48,56,42,82,48,46,1,49,5,20,97,97
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+apple
+
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+
