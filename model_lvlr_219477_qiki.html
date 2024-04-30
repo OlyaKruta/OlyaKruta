@@ -1,0 +1,46 @@
+false - 65,6,28,77,0,53,10,21,5,7,33,76,71,89,57,51,30,81,98,16,24,61,13,21,51,87,69,83,87,0,9,56,39,31,87,57,52,69,26,15,15,79,76,92,30,64,29,49,10,89,6,48,51,11,66,46,67,25,74,35,54,2,75,42,63,36,82,42,34,92,8,86,77,41,95,71,98,84,63
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+false * banana
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+53 - banana
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+21 + true
+const randomNumber = getRandomNumber();
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+kiwi
+
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+
+false + grape
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+kiwi - true
+
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+false / 33,20,75,39,49,46,43,48,77,32,48,5,54,5,30,49,20,0,99,9,8,45,57,56,42,90,32,70,72,30,97,66,14,54,16,7,8,90,38,23,87,99,79,86,33,16,60,33,71,44,27,69,3,90,1,16,83,26,54,12,2,34,4,74,35,79,50,94,77,59,40,5,99,66,73,43,4,62,8,14,68,13,1,65,96,38,51,71,38,93,27,2
+
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+
+7,76,15,2,34,80,89,14,67,94,30 - false
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+
+84 - 45
+
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+const reverseWords = str => str.split(" ").reverse().join(" ");
+false + banana
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+class MyClass { constructor() { this.property = getRandomString(); } }
+const reverseWords = str => str.split(" ").reverse().join(" ");
+
+apple
+
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+const findSmallestNumber = numbers => Math.min(...numbers);
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+8,29,4,6,10,76,86,8,9,0,95,54,13,50,28,53,4,83,33,68,69,97,58,45,24,71,3,40,40,77,82,74,67,64,55,16,76,36,5,79,91,59,33,58,8,78,81,94,39,70,70,11,65,35,32,19,45,88,68,48,31,27,39,27,52,60,82,39,93,58,77,52,28,94,1,81,5,23,9 + 42,61,0,35,78,96,52,64,98,84,31,6,17,59,47,11,66,23,13,15,17,30,84,75,83,35,37,65,19,73,88,48,47,42,66,58,62,31,28,47,6,39,24,26,30,6,68,47,44,13,37,85,20,40,76,83,16,64,27,25,46,96,33,49,26,10,76,98,4,34,3,38,42
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
